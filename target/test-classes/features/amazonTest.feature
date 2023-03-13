@@ -1,12 +1,14 @@
 @gp1
 Feature: Amazon Search
 
+  @gp1
   Scenario: TC01_amazon_iphone_arama
     Given amazon sayfasina gidilir
     When amazon sayfasinda iphone aratilir
     Then sayfa basliginin iphone icerdigini test eder
     And sayfa kapatilir
 
+  @gp2
   Scenario: TC02_amazon_selenium_arama
     Given amazon sayfasina gidilir
     When amazon sayfasinda selenium aratilir

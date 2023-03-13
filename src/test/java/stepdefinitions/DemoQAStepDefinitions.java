@@ -22,7 +22,7 @@ public class DemoQAStepDefinitions {
 
     @Given("kullanici {string} gider")
     public void kullanici_gider(String string) {
-        Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
+        Driver.getDriver().get(ConfigReader.getProperty(string));
     }
 
     @Then("kullanici alerte tiklar")

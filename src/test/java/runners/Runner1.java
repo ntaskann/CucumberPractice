@@ -11,11 +11,11 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features", // features'ın yolunu belirmemiz gerekir
         glue = "stepdefinitions",// Kodlarımızı yazdığımız yeri belirtiriz
-        tags = "@gp1", //Çalıştırmak istediğimiz seneryoya verdiğimiz tag'i belirtiriz
+        tags = "@gp2", //Çalıştırmak istediğimiz seneryoya verdiğimiz tag'i belirtiriz
         dryRun = false // Seneryonun adımlarını kontrol eder ve çalıştığını görürüz
 
 )
 
 
-public class Runner {
+public class Runner1 {
 }
